@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <!-- linking the css to the html -->
+  <link rel="stylesheet" href="section1.css">
+  <!-- adding jquery + maphilight to the code -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+  <!-- making maphilight function -->
+  <script type="text/javascript">
+   $(function() {
+     $('.map').maphilight();   
+   });
+   </script>
+   <!-- front end 
+   <title>Libellus de Medicinalibus Indorum Herbis (1552)</title>
+  <body>
+    <h3>Page 1/54</h3>
+    <!-- making the first page a clickable image -->
+   <img id="codexmap" src="https://i.imgur.com/JJNsfOL.jpg" alt="codexmap" usemap="#codexmap" class="map">
+   <map name="codexmap">
+    <area shape="rect" coords="646,60,805,89" href="floras1.html" data-maphilight='{"fillColor":"fcdc00","fillOpacity":0.6}'/>
+    <area shape='rect' coords='817,59,976,94' alt='' href="floras2.html" data-maphilight='{"fillColor":"fcdc00","fillOpacity":0.6}'/>
+    <area shape='rect' coords='984,63,1091,89' alt='' href="floras3.html" data-maphilight='{"fillColor":"fcdc00","fillOpacity":0.6}'/>
+   </map>
+   <script>$('.#codexmap').maphilight();</script>
+   <div style="text-align:center">
+   <a href=LDMIH2.html>Next</a>
+   <a href=nahuatl.html>Home</a>
+   <a href=LDMIHtrans.html>Translation</a>
+  </body>
+ </head>
+</html>

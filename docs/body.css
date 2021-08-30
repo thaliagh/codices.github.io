@@ -20,3 +20,8 @@ p {
 	font-size: 20px;
 	text-align: center;
 }
+
+#codices {
+        border: 2px solid blue;
+	border-radius: 5px;
+}
